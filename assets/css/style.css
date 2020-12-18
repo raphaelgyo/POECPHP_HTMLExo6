@@ -1,0 +1,18 @@
+/* changer la couleur de chaque section du Formulaire */
+.identityInfo {
+  background-color: #2574A9
+}
+.addressInfo {
+  background-color: #9A12B3
+}
+.paymentInfo {
+  background-color: #DB0A5B
+}
+/* voici comment retirer les puces de visa & mastercard */
+ul {
+  list-style-type: none;
+}
+/* le textarea est bloqué et ne peut plus changer de taille */
+textarea {
+  resize: none;
+}
